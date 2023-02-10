@@ -4,20 +4,48 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="header">
+            <button className='btn-create'>Create</button>
+            <button className='btn-cancel'>Cancel</button>  
+        </div>   
+        <div className="quiz">
+            <div className="card">
+                <div className="info">
+                    <h1 className="cardTitle">quiz title</h1>
+                    <p className="describ">quiz description</p>
+                    <p className="link">youtube link : www.youtube.con</p>
+                    <p className="score">Score : 2/3</p>
+                </div>
+                <div className="btns">
+                  <button className="answer">Answer</button>
+                  <button className='edit'>Edit</button>
+                </div>
+            </div>
+            <div className="card">
+                <div className="info">
+                    <h1 className="cardTitle">quiz title</h1>
+                    <p className="describ">quiz description</p>
+                    <p className="link">youtube link : www.youtube.con</p>
+                    <p className="score">Score : 2/3</p>
+                </div>
+                <div className="btns">
+                  <button className="answer">Answer</button>
+                  <button className='edit'>Edit</button>
+                </div>
+            </div>
+            <div className="card">
+                <div className="info">
+                    <h1 className="cardTitle">quiz title</h1>
+                    <p className="describ">quiz description</p>
+                    <p className="link">youtube link : www.youtube.con</p>
+                    <p className="score">Score : 2/3</p>
+                </div>
+                <div className="btns">
+                  <button className="answer">Answer</button>
+                  <button className='edit'>Edit</button>
+                </div>
+            </div>
+        </div>
     </div>
   );
 }
