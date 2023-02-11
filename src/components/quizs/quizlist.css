@@ -1,0 +1,122 @@
+.App{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background-color: rgb(74, 74, 147);
+  }
+  
+  .btn-create{
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align:center;
+    line-height:40px;
+  }
+  
+  .btn-create:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  
+  .btn-cancel{
+    width: 120px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid red;
+    font-weight: bold;
+    text-align:center;
+    line-height:43px;
+  }
+  
+  .btn-cancel:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    border: 1px solid red;
+  }
+  
+  .quiz{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    align-items: center;
+  }
+  
+  .card{
+      width: 80%;
+      background-color: gray;
+      border-radius: 10px;
+      margin-top:20px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 10px;
+  }
+  
+  .btns{
+    width: 30%;
+    height: 7vh;
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .answer{
+    width: 120px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    text-align:center;
+    line-height:43px;
+  }
+  
+  .answer:hover{
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    border: 1px solid green;
+  }
+  
+  .edit{
+    width: 120px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    text-align:center;
+    line-height:43px;
+  }
+  
+  .edit:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    border: 1px solid blue;
+  }
